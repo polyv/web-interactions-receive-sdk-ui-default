@@ -1,0 +1,464 @@
+@keyframes plvIaQALoading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.plv-ia-qa {
+  height: 100%;
+}
+.plv-emotion-img {
+  width: 24px;
+  height: 24px;
+}
+
+.plv-ia-qa-filter {
+  padding: 0 16px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  z-index: 1;
+  height: 40px;
+  line-height: 40px;
+  // padding-top: 4px;
+
+  .plv-ia-qa-select {
+    float: right;
+  }
+}
+
+.plv-ia-qa-filter__left {
+  float: left;
+  font-size: 14px;
+  color: #666;
+}
+
+.plv-ia-qa-contents {
+  padding-top: 40px;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 12px;
+  position: relative;
+}
+
+.plv-ia-qa-contents--hide-filter {
+  padding-top: 0;
+}
+
+.plv-ia-qa-contents__wrap {
+  height: 100%;
+  overflow-y: auto;
+}
+.plv-ia-qa-question,
+.plv-ia-qa-answer__item {
+  position: relative;
+  padding: 0 16px;
+}
+
+.plv-ia-qa__item__main {
+  padding-top: 16px;
+  padding-left: 28px;
+}
+
+.plv-ia-qa-question {
+  padding-bottom: 0;
+}
+
+.plv-ia-qa-item {
+  word-break: break-word;
+  margin-bottom: 8px;
+}
+.plv-ia-qa-question__main__label {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 18px;
+  height: 22px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  &--ask {
+    background-image: url(./images/icon-label-ask.png);
+  }
+}
+
+.plv-ia-qa-contents__wrap {
+  div:last-of-type {
+    border: 0;
+  }
+}
+
+.plv-ia-qa-answer__item {
+  &:first-child {
+    border: 0;
+  }
+  &:last-child {
+    padding-bottom: 16px;
+  }
+}
+
+.plv-ia-qa-answer__main {
+  font-size: 14px;
+}
+
+.plv-ia-qa-question-info,
+.plv-ia-qa-answer-info {
+  line-height: 24px;
+}
+
+.plv-ia-qa-question-info-me {
+  color: #F06E6E;
+}
+
+.plv-ia-qa-question__bottom,
+.plv-ia-qa-answer__bottom {
+  margin-top: 8px;
+  position: relative;
+}
+.plv-ia-qa-question__bottom {
+  padding-bottom: 16px;
+}
+
+.plv-ia-qa-tips {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    white-space: nowrap;
+    background: rgba(#000, 0.8);
+    color: #fff;
+    font-size: 16px;
+    padding: 24px;
+    line-height: 1.5;
+    border-radius: 4px;
+    z-index: 999;
+  }
+}
+
+.plv-ia-qa-list-tips {
+  text-align: center;
+  font-size: 14px;
+  padding: 6px 0;
+}
+
+.plv-ia-qa-list-tips--no-data {
+  height: 100%;
+  padding-top: 60px;
+  box-sizing: border-box;
+  &::before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.plv-ia-qa-list-loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+
+  span {
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-indent: -9999em;
+    border: 5px solid rgba(#2196f3, .5);
+    border-left-color: #2196f3;
+    transform: translateZ(0);
+    animation: plvIaQALoading 1.1s linear infinite;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+}
+
+// ask begin
+.plv-ia-qa-ask__entry {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 16px;
+  bottom: 75px;
+  border-radius: 50%;
+  background-image: url(./images/icon-edit.png);
+  background-color: #3082FE;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+
+  &--disabled {
+    background-color: #999;
+  }
+}
+
+.plv-ia-qa-ask__mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  // background: rgba(#000, .5);
+}
+
+.plv-ia-qa-ask__ctrl {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 8px 0;
+  height: 56px;
+  line-height: 40px;
+  box-sizing: border-box;
+  display: flex;
+  z-index: 2;
+
+  >* {
+    // margin: 0 4px;
+    font-size: 16px;
+  }
+}
+.plv-ia-qa-ask__ctrl__input-wrap {
+  width: 100%;
+  display: flex;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+.plv-ia-qa-ask__ctrl__emotions {
+  margin: 0;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+.plv-ia-qa-ask__ctrl--more {
+  padding-bottom: 108px;
+  height: 156px;
+}
+
+.plv-ia-qa-ask-input {
+  flex-grow: 1;
+  resize: none;
+  border-radius: 4px;
+  border: 0;
+  outline: 0;
+  padding: 8px;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.plv-ia-qa-ask-emotion {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border: 0;
+  outline: 0;
+  margin: 4px 8px;
+  background-repeat: no-repeat;
+  background-size: 32px;
+  background-color: transparent;
+  background-position: center;
+}
+
+.plv-ia-qa-ask-send {
+  white-space: nowrap;
+}
+// ask end
+
+// emotions begin
+.plv-ia-qa-emotions {
+  position: absolute;
+  bottom: 0;
+  line-height: normal;
+  height: 100px;
+  width: 100%;
+  z-index: 1;
+}
+
+.plv-ia-qa-emotions__wrap {
+  overflow: auto;
+  height: 100%;
+}
+// emotions end
+
+.plv-ia-qa-news {
+  position: absolute;
+  bottom: 32px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 160px;
+  height: 32px;
+  line-height: 32px;
+  background: rgba(#3082FE, 0.8);
+  color: #fff;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 14px;
+}
+
+// select begin
+.plv-ia-qa-select {
+  position: relative;
+  font-size: 12px;
+}
+
+.plv-ia-qa-select--focus {
+  .plv-ia-qa-select__arrow {
+    transform: rotate(-180deg);
+  }
+  .plv-ia-qa-select__arrow__ico {
+    transform: rotate(-225deg);
+  }
+
+  .plv-ia-qa-select__options__wrap {
+    transform: translateY(0);
+  }
+}
+
+.plv-ia-qa-select__result {
+  padding: 0 8px;
+  box-sizing: border-box;
+  line-height: 40px;
+  border-radius: 2px;
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.plv-ia-qa-select__result__content {
+  padding-right: 16px;
+  text-align: right;
+}
+
+.plv-ia-qa-select__arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 100%;
+  cursor: pointer;
+  background: url(./images/icon-arrow.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  transition: transform 0.5s;
+}
+.plv-ia-qa-select__arrow__ico {
+  position: absolute;
+  top: 17px;
+  right: 5px;
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  border: 1px solid #ADADC0;
+  border-right: none;
+  border-top: none;
+  transform: rotate(-45deg) translateY(-3px);
+  transition: transform 0.5s;
+}
+
+.plv-ia-qa-select__options__bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(#000, 0.5);
+}
+
+.plv-ia-qa-select__options__wrap {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  padding-bottom: constant(safe-area-inset-bottom); /* 兼容 iOS < 11.2 */
+  padding-bottom: env(safe-area-inset-bottom); /* 兼容 iOS >= 11.2 */
+  line-height: 56px;
+  color: #333333;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 16px 16px 0 0;
+  transform: translateY(100%);
+  transition: transform 0.3s;
+}
+
+.plv-ia-qa-select__options-item {
+  border-bottom: 1px solid #F2F2F2;
+
+  &:last-child {
+    border: 0;
+  }
+}
+
+.plv-ia-qa-select__options__cancel {
+  border-top: 8px solid #F2F2F2;
+}
+// select end
+
+// 适配iPhone X / Xs / XR
+.plv-ia-qa--compatible {
+  $paddingHeight: 34px;
+  .plv-ia-qa-ask__ctrl {
+    padding-bottom: 8px + $paddingHeight;
+    height: 56px + $paddingHeight;
+  }
+
+  .plv-ia-qa-ask__ctrl--more {
+    padding-bottom: 108px + $paddingHeight;
+    height: 156px + $paddingHeight;
+
+    .plv-ia-qa-emotions {
+      bottom: $paddingHeight;
+    }
+  }
+
+  .plv-ia-qa-ask__ctrl--focus {
+    padding-bottom: 8px;
+    height: 56px;
+  }
+
+  .plv-ia-qa-select__options__wrap {
+    padding-bottom: $paddingHeight;
+  }
+}
+
+.plv-ia-qa-img {
+  cursor: zoom-in;
+  max-height: 68px;
+  vertical-align: top;
+  border-radius: 2px;
+}
+
+.plv-ia-multiline__content {
+  line-height: 22px;
+}
+
+.plv-ia-multiline__expand-btn__wrap {
+  line-height: 22px;
+}

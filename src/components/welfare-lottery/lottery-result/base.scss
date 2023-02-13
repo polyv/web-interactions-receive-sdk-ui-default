@@ -1,0 +1,19 @@
+@mixin arrow-right-black {
+  &:after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-top: -3px;
+    background-image: url(./icon-arrow-right.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+.plv-iar-welfare-lottery__result__record-btn {
+  position: absolute;
+  top: 12px;
+  font-size: 14px;
+  color: #666;
+}

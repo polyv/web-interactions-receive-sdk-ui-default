@@ -1,0 +1,122 @@
+$darkBgColor: #17181C;
+$lightBgColor: #25252D;
+$mainFontColor: #E6E6E6;
+$minorFontColor: #797988;
+$popupBgColor: #2B2C32;
+
+.plv-ia-qa--black {
+  &.plv-ia-qa {
+    background: $darkBgColor;
+  }
+
+  .plv-ia-qa-filter {
+    background: $lightBgColor;
+    border-bottom: 1px solid $darkBgColor;
+  }
+
+  .plv-ia-qa-contents__wrap {
+    background: $darkBgColor;
+  }
+
+  .plv-ia-qa-item {
+    color: $mainFontColor;
+    background: $lightBgColor;
+  }
+
+  .plv-ia-qa-answer,
+  .plv-ia-qa-answer__item {
+    border-color: $darkBgColor;
+  }
+
+  .plv-ia-qa-answer__item {
+    padding-top: 16px;
+
+    &:nth-child(1) {
+      border-top: 1px solid $darkBgColor;
+    }
+  }
+
+  .plv-ia-qa-question__main__label {
+    &--ask {
+      color: #F06E6E;
+      border: 1px solid #F06E6E;
+    }
+
+    &--answer {
+      color: #78A7ED;
+      border: 1px solid #78A7ED;
+    }
+  }
+
+  .plv-ia-qa-question-info,
+  .plv-ia-qa-answer-info {
+    color: $minorFontColor;
+  }
+
+
+  // select begin
+  .plv-ia-qa-select__result {
+    color: $mainFontColor;
+  }
+
+  .plv-ia-qa-select__options {
+    background: $popupBgColor;
+    color: $mainFontColor;
+  }
+
+  .plv-ia-qa-select__options-item {
+    border-color: $darkBgColor;
+
+    &:hover {
+      background: darken($popupBgColor, 3%);
+    }
+  }
+
+  // select end
+
+  // ask begin
+  .plv-ia-qa-ask {
+    background: $lightBgColor;
+  }
+
+  .plv-ia-qa-ask__ctrl {
+    background: $darkBgColor;
+  }
+
+  .plv-ia-qa-ask-input {
+    color: $mainFontColor;
+
+    &::-webkit-input-placeholder {
+      color: $minorFontColor;
+    }
+  }
+
+  .plv-ia-qa-ask-emotion {
+    background-image: url(./images/icon-emotion-black.png);
+  }
+
+  .plv-ia-qa-ask-send {
+    background: $lightBgColor;
+    color: $mainFontColor;
+
+    &:disabled {
+      color: rgba($mainFontColor, 0.4);
+      cursor: not-allowed;
+    }
+  }
+
+  .plv-ia-qa-emotions {
+    background: $popupBgColor;
+    box-shadow: 0 2px 3px 0 rgba($darkBgColor, .6), 0 1px 4px 0 rgba($darkBgColor, .6); // black
+  }
+
+  .plv-ia-multiline__expand-btn__wrap {
+    background-color: rgba(37, 37, 45, .9);
+  }
+
+  .plv-ia-multiline__expand-btn__ellipsis {
+    background: linear-gradient(270deg, #25252D 0%, rgba(37, 37, 45, 0) 100%);
+  }
+}
+
+// ask end

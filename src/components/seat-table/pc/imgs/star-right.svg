@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>右星星</title>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFEF3" offset="0%"></stop>
+            <stop stop-color="#FFF7DE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFFEF3" offset="0%"></stop>
+            <stop stop-color="#FFF7DE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#FFFEF3" offset="0%"></stop>
+            <stop stop-color="#FFF7DE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="右星星" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(0.000000, -0.000000)">
+            <polygon id="路径" fill="url(#linearGradient-1)" points="9.72089989 6.084575 10.9102571 0.727272727 12.0984481 6.084575 16 7.27389395 12.0984481 8.46321291 10.9102571 13.8181818 9.72089989 8.46087954 5.81818182 7.27389395"></polygon>
+            <polygon id="路径备份" fill="url(#linearGradient-2)" points="2.23012461 11.7035518 2.90975728 8.72727273 3.58872358 11.7035518 5.81818182 12.3642845 3.58872358 13.0250173 2.90975728 16 2.23012461 13.023721 0 12.3642845"></polygon>
+            <polygon id="路径备份-2" fill="url(#linearGradient-3)" points="4.58168437 2.08339533 5.09140887 9.42007415e-17 5.60063359 2.08339533 7.27272727 2.54590826 5.60063359 3.00842118 5.09140887 5.09090909 4.58168437 3.00751376 2.90909091 2.54590826"></polygon>
+        </g>
+    </g>
+</svg>

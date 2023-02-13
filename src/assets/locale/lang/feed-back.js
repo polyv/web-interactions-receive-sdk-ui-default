@@ -1,0 +1,68 @@
+const zhCN = {
+  feedBack: {
+    feedType: '投诉类型',
+    feedTypeOption1: '意见反馈',
+    feedTypeOption2: '投诉',
+    stuck: '页面卡顿',
+    blackScreen: '画面黑屏',
+    slowAccess: '访问缓慢',
+    poorExperience: '体验不好',
+    playSuggestion: '玩法建议',
+    otherFeedback: '其他反馈',
+    porn: '色情低俗',
+    politics: '涉政',
+    drug: '涉毒',
+    bloody: '恐怖血腥',
+    scam: '诈骗',
+    otherViolations: '其他违规',
+    backType: '所属分类',
+    feedContentLable: '反馈内容',
+    feedContentContent: '请填写反馈内容',
+    feedContentNum: '500字内',
+    uploadTitle: '上传图片',
+    uploadTitleMsg: '最多可上传1张，每张2M内',
+    codeTitle: '验证码',
+    codeplaceholder: '请输入验证码',
+    phone: '联系方式',
+    phoneMsg: '请留下您的手机号，方便回访',
+    feedBackBtn: '提交',
+    errorPhone: '手机号错误'
+  },
+};
+
+const en = {
+  feedBack: {
+    feedType: 'Complaint type',
+    feedTypeOption1: 'Suggestion',
+    feedTypeOption2: 'Complaint',
+    stuck: 'page stuck',
+    blackScreen: 'black screen',
+    slowAccess: 'Slow access',
+    poorExperience: 'Bad page',
+    playSuggestion: 'Suggestion',
+    otherFeedback: 'Other feedback',
+    porn: 'vulgar porn',
+    politics: 'Politics',
+    drug: 'Drug-related',
+    bloody: 'Horror bloody',
+    scam: 'scam',
+    otherViolations: 'Other violations',
+    backType: 'category',
+    feedContentLable: 'Feedback content',
+    feedContentContent: 'Please fill in the feedback',
+    feedContentNum: 'Within 500 words',
+    uploadTitle: 'Upload pictures',
+    uploadTitleMsg: 'Upload screenshots up to 1 uploads, each within 2M',
+    codeTitle: 'verification code',
+    codeplaceholder: 'please enter verification code',
+    phone: 'contact information',
+    phoneMsg: 'Please enter phone number',
+    feedBackBtn: 'Submit',
+    errorPhone: 'Phone error'
+  },
+};
+
+export default {
+  zh_CN: zhCN,
+  en,
+};

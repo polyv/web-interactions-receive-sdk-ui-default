@@ -1,0 +1,21 @@
+$bgColor: #366BEE;
+$inputBorderColor: #BEBEBE;
+.plv-check-in-default {
+  .pws-vclass-check-in-default__downcount {
+    span {
+      color: $bgColor;
+    }
+  }
+  .pws-vclass-btn--primary {
+    background-color: $bgColor;
+    border-radius: 4px;
+    &:hover {
+      background-color: rgba($bgColor, 0.8);
+    }
+    &:disabled {
+      background: #E9ECEE;
+      color: #fff;
+      cursor: not-allowed;
+    }
+  }
+}

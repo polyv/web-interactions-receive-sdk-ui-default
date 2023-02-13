@@ -1,0 +1,299 @@
+
+.plv-iar-modal__wrap--apple {
+  .plv-iar-welfare-lottery__task__wrap--pc {
+    .plv-iar-modal__main {
+      height: 430px !important;
+    }
+  }
+
+  .plv-iar-welfare-lottery__modal--gift-box, .plv-iar-welfare-lottery__modal--normal {
+    .plv-iar-modal__main {
+      overflow-y: hidden;
+      overflow-x: hidden;
+      background-image: linear-gradient(0deg, #F0F9FF 0%, #ECF2FF 100%) !important;
+      border-radius: 8px;
+      padding-top: 0;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .plv-iar-welfare-lottery__modal__head {
+      position: sticky;
+      left: 0;
+      right: 0;
+      top: 5px;
+      z-index: 1000;
+      .plv-iar-welfare-lottery__modal__head-title {
+        margin-top: 10px;
+      }
+      .plv-iar-welfare-lottery__modal__close {
+        top: 10px;
+        right: 10px;
+        width: 16px;
+        height: 16px;
+        background-image: url(./icon-close.png);
+      }
+    }
+    .plv-iar-welfare-lottery__modal__body {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding-bottom: 0;
+      background-image: none;
+      .plv-iar-welfare-lottery__task__btn-group {
+        padding-bottom: 20px;
+        background-image: linear-gradient(269deg, #FFFFFF 0%, #FFFFFF 100%);
+      }
+    }
+    .plv-iar-welfare-lottery__task__record-btn {
+      display: none;
+    }
+    .plv-iar-welfare-lottery__task-detail {
+      display: none;
+    }
+    .plv-iar-welfare-lottery__btn--normal {
+      background-image: linear-gradient(269deg, #5297FF 0%, #0468FF 100%);
+      box-shadow: 0 8px 6px 0 rgba(44, 95, 233, 0.1);
+      color: #FFFFFF;
+    }
+    .plv-iar-welfare-lottery__answer-question-msg--task {
+      display: none;
+    }
+
+    .plv-iar-welfare-lottery__answer-question-msg {
+      color: rgba(51, 51, 51, 0.6) !important;
+      margin-top: 4px;
+    }
+
+    .plv-iar-welfare-lottery__answer-process {
+      color: #3082FE;
+      margin-top: 10px;
+    }
+    .plv-iar-welfare-lottery__answer-process--inner {
+      background-image: linear-gradient(269deg, #5297FF 0%, #0468FF 100%) !important;
+    }
+    .plv-iar-welfare-lottery__answer-process--wrap {
+      background-image: linear-gradient(269deg, rgba(82, 151, 255, 0.1) 0%, rgba(4, 104, 255, 0.1) 100%) !important;
+    }
+
+
+    .plv-iar-welfare-lottery__modal__main-result-tip {
+      display: none;
+    }
+
+    .plv-iar-welfare-lottery__modal--answer-question--submit {
+      background-image: linear-gradient(269deg, #5297FF 0%, #0468FF 100%);
+      box-shadow: 0 8px 6px 0 rgba(44, 95, 233, 0.1);
+    }
+    // 图片替换规范： 高度固定18px，宽度根据图片等比显示 标题左右有“中奖记录”和关闭按钮，宽度尽量控制在200内（距离中奖记录16px）。
+    .plv-iar-welfare-lottery__modal__head-title {
+      color: #3330;
+      background-image: url('https://s4.videocc.net/customized-img/apple/modal-dialog-title.png');
+      width: auto;
+      height: 18px;
+      background-size: auto 100%;
+      user-select: none;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .plv-iar-welfare-lottery__modal-footer-tip {
+      color: #3082FE;
+    }
+
+    .plv-iar-welfare-lottery__result__content__title {
+      background-image: linear-gradient(90deg, #5297FF 0%, #0468FF 100%);
+    }
+    .plv-iar-welfare-lottery__result__prize__name--no-img span {
+      background-image: linear-gradient(90deg, #5297FF 0%, #0468FF 100%);
+    }
+    .plv-iar-welfare-lottery__btn--deep {
+      background-image: linear-gradient(269deg, #5297FF 0%, #0468FF 100%);
+    }
+    .plv-iar-welfare-lottery__result__exchange-code {
+      display: none;
+    }
+    .plv-iar-welfare-lottery__result__icon {
+      background-image: url('./emoji-ku.png');
+      width: 54px;
+      height: 100px;
+    }
+    .plv-iar-welfare-lottery__result__win-nums {
+      color: #3082FE;
+    }
+    .plv-iar-welfare-lottery__result__content__title {
+      margin-top: 40px;
+    }
+  }
+  .plv-iar-welfare-lottery__modal--gift-box--mobile, .plv-iar-welfare-lottery__modal--normal {
+    .plv-iar-modal__main {
+      border-radius: 8px 8px 0 0;
+      .plv-iar-questionnaire-question-mobile .plv-iar-questionnaire-question__option label .plv-iar-questionnaire-question__option__mobile--border {
+        border: 1px solid #d7e6f9;
+      }
+
+      .plv-iar-questionnaire-question-mobile .plv-iar-questionnaire-question__option label .plv-iar-questionnaire-question__option__input:checked ~ .plv-iar-questionnaire-question__option__mobile--border {
+        border: 1px solid #3082FE;
+      }
+      .plv-iar-questionnaire-question-mobile .plv-iar-questionnaire-question__option label .plv-iar-questionnaire-question__option__input:checked ~ .plv-iar-questionnaire-question__option__text {
+        color: #3082FE !important;
+        font-weight: 600;
+      }
+      .plv-iar-welfare-lottery__modal__main-statistics-tip {
+        background-image: linear-gradient(90deg, #5297FF 0%, #0468FF 100%);
+      }
+    }
+  }
+
+  .plv-iar-welfare-lottery__task__wrap--mobile {
+    .plv-iar-modal__main {
+      overflow-y: scroll;
+      .plv-iar-welfare-lottery__modal__body {
+        position: sticky;
+      }
+      background-image: linear-gradient(0deg, #FFFFFF 0%, #FFFFFF 100%) !important;
+      &::-webkit-scrollbar-track {
+        width: 0;
+        border-radius: 8px;
+        background-image: linear-gradient(0deg, #FFFFFF 0%, #FFFFFF 100%);
+        border-left: none;
+      }
+    }
+  }
+  .plv-iar-welfare-lottery__record-modal {
+    .plv-iar-modal__main {
+      overflow-y: hidden;
+      background-image: linear-gradient(0deg, #F0F9FF 0%, #ECF2FF 100%) !important;
+    }
+    .plv-iar-welfare-lottery__modal__body {
+      padding-top: 60px !important;
+    }
+    .plv-iar-welfare-lottery__modal__head {
+      z-index: 1000;
+      top: 0;
+      background-color: #ecf3fe;
+      .plv-iar-welfare-lottery__modal__close {
+        top: 15px;
+      }
+    }
+    .plv-iar-welfare-lottery__btn--border {
+      color: #3082FE;
+      border: 1px solid #3082FE;
+    }
+  }
+
+  .plv-iar-welfare-lottery__receive-modal {
+    .plv-iar-welfare-lottery__modal__head {
+      z-index: 1000;
+      top: 0;
+    }
+    .plv-iar-welfare-lottery__modal__body {
+      padding-top: 60px !important;
+    }
+    .plv-iar-welfare-lottery__modal__close {
+      top: 15px;
+    }
+    .plv-iar-welfare-lottery__submit-info__form__field input {
+      border: 1px solid rgba(255, 178, 153, 30%);
+    }
+    .plv-iar-welfare-lottery__scan__tip {
+      color: #333333;
+      line-height: 30px;
+    }
+  }
+
+  .plv-iar-welfare-lottery__winner-list {
+    .plv-iar-modal__main {
+      overflow-y: hidden;
+    }
+    .plv-iar-welfare-lottery__modal__head {
+      z-index: 1000;
+      top: 0;
+    }
+    .plv-iar-welfare-lottery__modal__body {
+      padding-top: 45px !important;
+    }
+    .plv-iar-welfare-lottery__modal__close {
+      top: 15px;
+    }
+  }
+
+  .plv-iar-welfare-lottery__modal--result {
+    .plv-iar-welfare-lottery__modal__head {
+      top: 0;
+      .plv-iar-welfare-lottery__modal__close {
+        top: 15px;
+      }
+    }
+  }
+  .plv-iar-welfare-lottery__record__item__detail__code {
+    visibility: hidden;
+  }
+  .plv-iar-welfare-lottery__modal__main-result--correct-answer {
+    background: #F8FBFF;
+  }
+  .plv-iar-welfare-lottery__modal__main-result-answers {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 2px;
+  }
+
+  .plv-iar-welfare-lottery__result-modal {
+    .plv-iar-modal__main {
+      .plv-iar-welfare-lottery__modal__head {
+        top: 0;
+        .plv-iar-welfare-lottery__modal__close {
+          top: 15px;
+        }
+      }
+    }
+    .plv-iar-welfare-lottery__result__record-btn {
+      top: 60px;
+    }
+  }
+
+  .plv-iar-welfare-lottery__modal--answer-question {
+    .plv-iar-welfare-lottery__modal-contain {
+      .plv-iar-welfare-lottery__modal__main {
+        padding-top: 16px;
+      }
+    }
+  }
+
+  @media screen and (min-aspect-ratio: 4/3) {
+    .plv-iar-welfare-lottery__modal--gift-box .plv-iar-welfare-lottery__task__wrap--mobile {
+      .plv-iar-modal__main {
+        overflow-y: scroll;
+        position: sticky !important;
+        background-image: linear-gradient(0deg, #FFFFFF 0%, #FFFFFF 100%) !important;
+      }
+    }
+    .plv-iar-welfare-lottery__btn--lg {
+      height: 36px;
+      line-height: 36px;
+      font-size: 14px;
+    }
+    .plv-iar-welfare-lottery__modal--gift-box .plv-iar-modal__main {
+      padding-top: 0 !important;
+    }
+    .plv-iar-welfare-lottery__modal--gift-box .plv-iar-welfare-lottery__modal__head {
+      top: 0 !important;
+    }
+  }
+}
+
+.plv-iar-pendant__content {
+  margin-top: 4px;
+}
+.plv-iar-welfare-lottery__result__content {
+  padding-top: 70px !important;
+  max-height: unset !important;
+  height: 100%;
+}
+//@media screen and (min-aspect-ratio: 4 / 3) {
+//  .plv-iar-welfare-lottery__result__content {
+//     padding-top: 44px;
+//     height: 100%;
+//   }
+//}

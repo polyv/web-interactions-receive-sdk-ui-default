@@ -1,0 +1,17 @@
+@import './base.scss';
+
+.plv-iar-welfare-lottery__task__record-btn {
+  cursor: pointer;
+}
+.plv-iar-welfare-lottery__task__btn-group {
+  text-align: center;
+}
+.plv-iar-welfare-lottery__task__wrap {
+  .plv-iar-welfare-lottery__modal__body {
+    padding: 28px;
+  }
+  .plv-iar-welfare-lottery__modal__back-btn--white {
+    position: absolute;
+    top: 0;
+  }
+}
