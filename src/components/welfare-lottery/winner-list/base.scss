@@ -1,0 +1,41 @@
+.plv-iar-welfare-lottery__winner-list {
+  .plv-iar-welfare-lottery__modal__body {
+    height: 100%;
+  }
+  .plv-iar-welfare-lottery__modal__back-btn--black {
+    position: absolute;
+  }
+}
+.plv-iar-welfare-lottery__winner-list__main {
+  height: 100%;
+  margin: 0;
+  padding: 12px 8px;
+  overflow: auto;
+  list-style: none;
+  li {
+    height: 48px;
+    line-height: 48px;
+    span {
+      width: 33.3%;
+      display: inline-block;
+      text-align: center;
+      font-size: 14px;
+      color: #333;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 0 8px;
+    }
+  }
+  li:nth-child(2n) {
+    background: rgba(255, 255, 255, .2);
+  }
+}
+.plv-iar-welfare-lottery__winner-list--no-data {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}

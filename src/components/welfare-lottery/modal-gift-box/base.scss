@@ -1,0 +1,24 @@
+.plv-iar-welfare-lottery__modal--gift-box {
+  .plv-iar-modal__main {
+    padding-top: 100px;
+  }
+  .plv-iar-welfare-lottery__modal__head {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    padding: 0 16px;
+    font-size: 14px;
+    color: #fff;
+  }
+  .plv-iar-welfare-lottery__modal__close {
+    position: absolute;
+    right: 16px;
+    width: 16px;
+    height: 16px;
+    background-image: url(./icon-close.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+}

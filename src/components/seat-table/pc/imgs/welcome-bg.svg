@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="24px" viewBox="0 0 400 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>欢迎语底板</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFCC4F" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFCC4F" offset="22.1349329%"></stop>
+            <stop stop-color="#FFCC4F" offset="78.9694193%"></stop>
+            <stop stop-color="#FFCC4F" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50.0003537%" id="linearGradient-2">
+            <stop stop-color="#D4AD00" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFA947" stop-opacity="0.75" offset="35.5363176%"></stop>
+            <stop stop-color="#FFA947" offset="69.2049893%"></stop>
+            <stop stop-color="#D4AD00" stop-opacity="0" offset="99.9832687%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PC坐席-蓝" transform="translate(-760.000000, -970.000000)">
+            <g id="欢迎语底板" transform="translate(760.000000, 970.000000)">
+                <rect id="Rectangle-Copy-6" fill="url(#linearGradient-1)" x="0" y="0" width="400" height="24"></rect>
+                <line x1="12.5" y1="0.5" x2="387.5" y2="0.5" id="直线" stroke="url(#linearGradient-2)"></line>
+                <line x1="12.5" y1="23.5" x2="387.5" y2="23.5" id="直线" stroke="url(#linearGradient-2)"></line>
+            </g>
+        </g>
+    </g>
+</svg>

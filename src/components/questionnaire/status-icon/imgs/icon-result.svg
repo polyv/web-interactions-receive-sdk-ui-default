@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="56px" viewBox="0 0 57 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon结果</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#7B9BFF" offset="0%"></stop>
+            <stop stop-color="#3662EC" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="20" cy="20" r="20"></circle>
+        <filter x="-35.0%" y="-25.0%" width="170.0%" height="170.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.300000012 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-3" transform="translate(8.500000, 3.999992)" fill-rule="nonzero">
+            <g id="icon结果">
+                <g id="圆形-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+                <path d="M14,11 L14,14 L26,14 L26,11 L29,11 C29.5522847,11 30,11.4477153 30,12 L30,30 C30,30.5522847 29.5522847,31 29,31 L11,31 C10.4477153,31 10,30.5522847 10,30 L10,12 C10,11.4477153 10.4477153,11 11,11 L14,11 Z M26.5778991,21.8636031 L23.714,24.727 L22.1363973,23.1493107 L20.8636027,24.4221004 L23.7142838,27.2727926 L27.8506897,23.1363969 L26.5778991,21.8636031 Z M14.0153828,24.0001183 L13.9846172,25.9998817 L20.4846172,26.0998817 L20.5153828,24.1001183 L14.0153828,24.0001183 Z M14.008333,18.0000347 L13.991667,19.9999653 L25.991667,20.0999653 L26.008333,18.1000347 L14.008333,18.0000347 Z M25,10 L25,13 L15,13 L15,10 L25,10 Z" id="形状结合" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

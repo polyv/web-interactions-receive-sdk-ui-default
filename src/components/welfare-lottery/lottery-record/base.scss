@@ -1,0 +1,59 @@
+.plv-iar-welfare-lottery__record-modal {
+  .plv-iar-welfare-lottery__modal__body {
+    height: 100%;
+  }
+  .plv-iar-welfare-lottery__modal__back-btn--black {
+    position: absolute;
+  }
+}
+.plv-iar-welfare-lottery__record-list {
+  height: 100%;
+  overflow: auto;
+}
+.plv-iar-welfare-lottery__record__item {
+  position: relative;
+  display: flex;
+  .plv-iar-welfare-lottery__btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+.plv-iar-welfare-lottery__record__item-right {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.plv-iar-welfare-lottery__record__item__pic {
+  margin-right: 8px;
+  top: 0;
+  left: 0;
+}
+.plv-iar-welfare-lottery__record__item__name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+}
+.plv-iar-welfare-lottery__record__item__detail {
+  bottom: 0;
+  color: #999;
+  font-size: 12px;
+  margin-top: 8px;
+  >p {
+    margin: 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.plv-iar-welfare-lottery__record--no-data {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}

@@ -1,0 +1,44 @@
+// 滚动条样式
+@mixin scrollbar {
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(207, 216, 220, 1);
+    border-radius: 5px;
+    &:hover {
+      background-color: rgba(207, 216, 220, 0.8);
+    }
+    &:active {
+      background-color: rgba(207, 216, 220, 0.9);
+    }
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-left: 1px solid #ECEFF1;
+  }
+}
+
+@mixin bg($url) {
+  background-image: url($url);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// 单行文本截断省略
+@mixin text-singleline {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 单行文本截断省略
+@mixin text-multiline($number: 2) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $number;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

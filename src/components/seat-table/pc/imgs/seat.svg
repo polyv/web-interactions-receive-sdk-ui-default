@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>PC空座位-白</title>
+    <defs>
+        <linearGradient x1="50%" y1="-8.04061325e-15%" x2="50%" y2="68.3113381%" id="linearGradient-1">
+            <stop stop-color="#BCE1FF" offset="0.0147679469%"></stop>
+            <stop stop-color="#B7DAFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="39" height="39" rx="5.77777778"></rect>
+        <filter x="-42.9%" y="-15.8%" width="185.7%" height="131.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1.44444444" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-42.9%" y="-15.8%" width="185.7%" height="131.6%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="1.44444444" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-6">
+            <stop stop-color="#C6E6FF" offset="0.0147679469%"></stop>
+            <stop stop-color="#B7DAFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-7">
+            <stop stop-color="#B7DAFF" offset="0%"></stop>
+            <stop stop-color="#C6E6FF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-11.1%" y="-33.3%" width="122.2%" height="166.7%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="1.44444444" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="26.4925182%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#B1DCFF" offset="0%"></stop>
+            <stop stop-color="#98CAFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-10" x="3.61111111" y="27.4444444" width="39" height="13" rx="6.5"></rect>
+        <filter x="-9.0%" y="-26.9%" width="117.9%" height="153.8%" filterUnits="objectBoundingBox" id="filter-11">
+            <feGaussianBlur stdDeviation="3" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="1" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.3 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="PC空座位-白" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-2" transform="translate(2.888889, 7.222222)">
+            <g id="矩形-+-矩形备份-3-+-矩形备份-6-蒙版" transform="translate(3.611111, 0.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="蒙版" fill="url(#linearGradient-1)" opacity="0.900000036" xlink:href="#path-2"></use>
+                <rect id="矩形备份-3" fill="#6EB2FC" opacity="0.400000006" filter="url(#filter-4)" mask="url(#mask-3)" x="-2.16666667" y="10.1111111" width="10.1111111" height="27.4444444" rx="5.05555556"></rect>
+                <rect id="矩形备份-3" fill="#6EB2FC" opacity="0.400000006" filter="url(#filter-5)" mask="url(#mask-3)" x="31.0555556" y="10.1111111" width="10.1111111" height="27.4444444" rx="5.05555556"></rect>
+            </g>
+            <rect id="矩形" fill="url(#linearGradient-6)" x="36.1111111" y="10.1111111" width="10.1111111" height="27.4444444" rx="5.05555556"></rect>
+            <rect id="矩形备份-3" fill="url(#linearGradient-7)" x="0" y="10.1111111" width="10.1111111" height="27.4444444" rx="5.05555556"></rect>
+            <rect id="矩形备份-3" fill="#6EB2FC" opacity="0.400000006" filter="url(#filter-8)" x="3.61111111" y="26" width="39" height="13" rx="5.21609907"></rect>
+            <g id="矩形备份-6">
+                <use fill="url(#linearGradient-9)" fill-rule="evenodd" xlink:href="#path-10"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+            </g>
+        </g>
+    </g>
+</svg>

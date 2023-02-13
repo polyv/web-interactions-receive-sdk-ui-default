@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon排行榜</title>
+    <defs>
+        <linearGradient x1="50%" y1="5.71428575%" x2="50%" y2="98.5714257%" id="linearGradient-1">
+            <stop stop-color="#FFAC71" offset="0%"></stop>
+            <stop stop-color="#FD5347" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="20" cy="20" r="20"></circle>
+        <filter x="-42.5%" y="-32.5%" width="185.0%" height="185.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.529411793   0 0 0 0 0.0901960805   0 0 0 0 0.0901960805  0 0 0 0.300000012 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="组-77" transform="translate(10.000000, 5.999992)" fill-rule="nonzero">
+            <g id="icon排行榜">
+                <g id="圆形-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+                <g id="编组-4" transform="translate(7.983004, 9.000000)">
+                    <path d="M3.07636693,20.0000082 C2.76390682,20.0000082 2.49712192,19.7743831 2.44524824,19.466259 L0.00957962467,4.99864984 C-0.0208485338,4.81790986 0.0276730644,4.63279754 0.142848328,4.49022309 C0.364963934,4.21526813 0.767919245,4.17243337 1.04287421,4.39454898 L7.5233483,9.6296407 L11.576,7.56633283 L11.576313,7.40741885 L11.742,7.48133283 L11.8880605,7.40741885 L11.888,7.54633283 L16.5645552,9.6296407 L23.0450288,4.39454905 C23.3199837,4.17243343 23.7229391,4.21526818 23.9450547,4.49022313 C24.0602299,4.63279758 24.1087515,4.8179099 24.0783234,4.99864989 L21.642655,19.466259 C21.5907813,19.7743831 21.3239964,20.0000082 21.0115363,20.0000082 Z" id="联集-1" fill="#F4F4F4"></path>
+                    <path d="M12.0438966,20 C9.11038921,20 6.17688187,20 3.24337453,20 C2.88991227,20 2.60337449,19.7134622 2.60337449,19.36 C2.60337449,19.2635612 2.62516891,19.1683693 2.66712917,19.0815375 L11.3208874,1.17360137 C11.4746779,0.855349843 11.8573437,0.722027899 12.1755952,0.875818471 C12.3031263,0.93744609 12.4066108,1.03963889 12.4698353,1.16638594 L21.4027474,19.0743221 C21.560523,19.3906169 21.4320177,19.7749269 21.1157228,19.9327025 C21.0269956,19.9769618 20.9291983,20 20.8300449,20 C17.9013288,20 14.9726127,20 12.0438966,20 Z" id="路径-3" fill-opacity="0.939999998" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

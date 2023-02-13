@@ -1,0 +1,50 @@
+
+//$bgColor: #366BEE; // PC端
+//$bgColor: #4399FF; // 移动端
+$inputBorderColor: #BEBEBE;
+// 置灰按钮色
+$btnBgColor--disabled: #7CB8FF;
+$btnColor--disabled: #F0F1F5;
+
+.plv-iar-mobile-questionnaire-question-default, .plv-iar-questionnaire-default {
+  .pws-vclass-questionnaire-question__title__blue {
+    color: $bgColor !important;
+  }
+  .pws-vclass-questionnaire-question__option__input--single:checked+span {
+    border-color: $bgColor !important;
+  }
+
+  // 移动端选择框选中 border
+  .plv-iar-questionnaire-question__option__input:checked {
+    &~ .pws-vclass-questionnaire-question__option__mobile--border {
+      border-color: $bgColor !important;
+    }
+  }
+  .pws-vclass-btn--primary {
+    background-color: $bgColor !important;
+    border-radius: 4px !important;
+    &:hover {
+      background-color: rgba($bgColor, 0.8) !important;
+    }
+    &:disabled {
+      background: #E9ECEE !important;
+      color: #fff !important;
+      cursor: not-allowed !important;
+    }
+  }
+  .pws-btn-bg-color {
+    background-color: $bgColor !important;
+    &:disabled {
+      background-color: $btnBgColor--disabled !important;
+      color: $btnColor--disabled !important;
+    }
+  }
+
+  // polyvUI 组件
+  .plv-iar-privacy-checkbox > input:checked + label {
+    background: $bgColor !important;
+  }
+  .plv-iar-privacy-checkbox > input:checked + label::before {
+    background: $bgColor !important;
+  }
+}

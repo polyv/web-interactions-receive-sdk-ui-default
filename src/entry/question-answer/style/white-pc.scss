@@ -1,0 +1,118 @@
+$darkBgColor: #eef0f6;
+$lightBgColor: #f6f8ff;
+$mainFontColor: #333;
+$minorFontColor: #888;
+$popupBgColor: #f6f8ff;
+
+.plv-ia-qa--white {
+  &.plv-ia-qa {
+    background: $darkBgColor;
+  }
+
+  .plv-ia-qa-filter {
+    background: $lightBgColor;
+    border-bottom: 1px solid $darkBgColor;
+  }
+
+  .plv-ia-qa-contents__wrap {
+    background: $darkBgColor;
+  }
+
+  .plv-ia-qa-item {
+    color: $mainFontColor;
+    background: $lightBgColor;
+  }
+
+  .plv-ia-qa-answer,
+  .plv-ia-qa-answer__item {
+    border-color: $darkBgColor;
+  }
+
+  .plv-ia-qa-answer__item {
+    padding-top: 16px;
+
+    &:nth-child(1) {
+      border-top: 1px solid $darkBgColor;
+    }
+  }
+
+  .plv-ia-qa-question__main__label {
+    &--ask {
+      color: #FF5B5B;
+      border: 1px solid #FF5B5B;
+    }
+
+    &--answer {
+      color: #3082FE;
+      border: 1px solid #3082FE;
+    }
+  }
+
+
+  .plv-ia-qa-question-info,
+  .plv-ia-qa-answer-info {
+    color: $minorFontColor;
+  }
+
+  // select begin
+  .plv-ia-qa-select__result {
+    color: $mainFontColor;
+  }
+
+  .plv-ia-qa-select__options {
+    background: $popupBgColor;
+    color: $mainFontColor;
+    border: 1px solid $darkBgColor; // white
+  }
+
+  .plv-ia-qa-select__options-item {
+    border-color: $darkBgColor;
+
+    &:hover {
+      background: darken($popupBgColor, 3%);
+    }
+  }
+
+  // select end
+
+  // ask begin
+  .plv-ia-qa-ask {
+    background: $lightBgColor;
+  }
+
+  .plv-ia-qa-ask__ctrl {
+    background: $darkBgColor;
+  }
+
+  .plv-ia-qa-ask-input {
+    color: $mainFontColor;
+
+    &::-webkit-input-placeholder {
+      color: $minorFontColor;
+    }
+  }
+
+  .plv-ia-qa-ask-emotion {
+    background-image: url(./images/icon-emotion-white.png);
+  }
+
+  .plv-ia-qa-ask-send {
+    background: #2196f3; // white
+    color: #fff; // white
+
+    &:disabled {
+      background: rgba(#2196f3, 0.4);
+      cursor: not-allowed;
+    }
+  }
+
+  .plv-ia-multiline__expand-btn__ellipsis {
+    background: linear-gradient(270deg, #f6f8ff 0%, rgba(246, 248, 255, 0) 100%);
+  }
+
+  .plv-ia-qa-emotions {
+    background: $popupBgColor;
+    box-shadow: 0 2px 3px 0 rgba($mainFontColor, .2), 0 1px 4px 0 rgba($mainFontColor, .2); // white
+  }
+}
+// ask end

@@ -1,0 +1,40 @@
+@mixin full-screen-modal {
+  height: 100% !important;
+  width: 100vh !important;
+  min-width: 375px !important;
+  left: unset;
+  right: 0;
+  bottom: 0;
+  border-radius: 8px 0 0 0 !important;
+}
+
+@mixin modal-back-btn {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+.plv-iar-welfare-lottery__modal__back-btn--black {
+  @include modal-back-btn;
+  background-image: url(../imgs/icon-back-black.png);
+}
+.plv-iar-welfare-lottery__modal__back-btn--white {
+  @include modal-back-btn;
+  background-image: url(../imgs/icon-back-white.png);
+}
+@mixin modal-title {
+  color: #333;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+.plv-iar-welfare-lottery__modal__title--center {
+  @include modal-title;
+  text-align: center;
+}
+
+.plv-iar-welfare-lottery__color--red {
+  color: #FE3F52;
+}
